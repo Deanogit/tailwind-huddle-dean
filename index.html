@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta
+      name="description"
+      content="Frontend Mentor Huddle Landing Page Challenge built in TailwindCSS"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>
+      Frontend Mentor | Huddle landing page with single introductory section
+    </title>
+  </head>
+
+  <body
+    class="min-h-screen bg-fm-violet text-white bg-mobile bg-no-repeat bg-top sm:bg-desktop sm:bg-cover"
+  >
+    <div class="px-10 md:px-20 min-h-screen relative">
+      <header class="header pt-[38px] md:col-span-2">
+        <img
+          src="images/logo.svg"
+          alt=""
+          width="120"
+          height="19"
+          class="logo mb-[70px] md:w-[200px]"
+        />
+      </header>
+      <main class="lg:flex gap-10 h-full">
+
+        <section class="card__col--1">
+          <img
+          src="images/illustration-mockups.svg"
+          alt=""
+          class="mb-[60px] md:mb-0 md:grow"
+          />
+        </section>
+        <section class="card__col--2 text-center md:text-left md:mt-10">
+          <h1
+          class="card__title font-display text-2xl leading-9 font-semibold mb-4 sm:text-[40px] md:leading-[60px] md:mb-6 md:max-w-[487px]"
+          >
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="card__body mb-6 md:max-w-[520px] md:text-lg">
+          Huddle re-imagines the way we build communities. You have a voice,
+          but so does your audience. Create connections with your users as
+          you engage in genuine discussion.
+        </p>
+        
+        <button
+        class="btn bg-white text-xs leading-[18px] text-fm-violet px-[75px] pt-[11px] pb-[10px] rounded-full shadow-md border-b border-black/80 mb-16 hover:bg-fm-magenta hover:text-white md:text-lg md:pt-[13px] md:pb-4 md:leading-[27px]"
+        >
+        Register
+      </button>
+    </section>
+  </main>
+
+  <footer class="">
+          <div
+            class="icon__container flex items-center md:justify-end  justify-center gap-[10px] md:gap-4 lg:mt-10"
+          >
+            <div
+              class="h-[28px] w-[28px] md:h-[40px] md:w-[40px] border rounded-full group hover:text-fm-magenta hover:border-fm-magenta cursor-pointer flex items-center justify-center"
+            >
+              <i class="fa-brands fa-facebook-f fa-sm"></i>
+            </div>
+            <div
+              class="h-[28px] w-[28px] md:h-[40px] md:w-[40px] border rounded-full hover:text-fm-magenta hover:border-fm-magenta cursor-pointer flex items-center justify-center"
+            >
+              <i class="fa-brands fa-twitter fa-sm"></i>
+            </div>
+            <div
+              class="h-[28px] w-[28px] md:h-[40px] md:w-[40px] border rounded-full hover:text-fm-magenta hover:border-fm-magenta cursor-pointer flex items-center justify-center"
+            >
+              <i class="fa-brands fa-instagram fa-sm"></i>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/d65720572c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
